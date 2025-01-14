@@ -1,0 +1,4 @@
+WebDriverManager.chromedriver().setup();
+            options = new ChromeOptions();
+            options.setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
+            driver = new ChromeDriver(options);
